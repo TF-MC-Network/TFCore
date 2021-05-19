@@ -11,13 +11,13 @@ public class Main extends JavaPlugin {
 	
 	@SuppressWarnings("unused")
 	private static Plugin plugin;
-    FileConfiguration config = this.getConfig();
+        FileConfiguration config = this.getConfig();
 	
 	@Override
 	public void onEnable() {
 		plugin = this;
 		//config things
-    	config.addDefault("Enable automatic creative mode?", false);
+    	        config.addDefault("Enable automatic creative mode?", false);
 		config.options().copyDefaults(true);
 		saveConfig();
 
