@@ -23,7 +23,7 @@ public class Main extends JavaPlugin {
 
 		//class registers
 		Bukkit.getPluginManager().registerEvents(new net.teamfekker.tfcore.listeners.tfcreative.Listeners(this), this);
-		getCommand("purgeall").setExecutor(new net.teamfekker.tfcore.listeners.PurgeCommand());
+		Bukkit.getPluginCommand("purgeall").setExecutor(new net.teamfekker.tfcore.listeners.PurgeCommand());
 		
 	}
 	
@@ -33,10 +33,6 @@ public class Main extends JavaPlugin {
 	
 
 	
-    //To access the plugin variable from other classes
-    public static Plugin getPlugin() {
-        return plugin;
-    }
     
 	
 	
