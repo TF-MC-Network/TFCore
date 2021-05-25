@@ -40,12 +40,20 @@ public class PurgeCommand implements CommandExecutor {
 				
 				Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin) this, new Runnable() {
 					public void run() {
-						for(Player players: Bukkit.getOnlinePlayers()){
+						for(Player players : Bukkit.getOnlinePlayers()){
 						players.kickPlayer("All players sent to Lobby, please wait a moment before reconnecting! -TF MGMT"); 
 						}
 					}
 
 				}, 30*20L);
+				Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin) this, new Runnable() {
+					public void run() {
+						for(Player players : Bukkit.getOnlinePlayers()){
+						players.kickPlayer("All players sent to Lobby, please wait a moment before reconnecting! -TF MGMT"); 
+						}
+					}
+
+				}, 35*20L);
 
 			}
 			return false;
