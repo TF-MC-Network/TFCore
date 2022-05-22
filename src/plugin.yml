@@ -1,9 +1,9 @@
 main: net.teamfekker.tfcore.Main
-name: TFCore
+name: TFICore
 version: 1.0.0
 api-version: 1.16
-description: TFCore combining core functions of various TF plugins into one.
-author: _MrUniverse
+description: TFICore combining core functions of various TF plugins into one.
+authors: [BearTrafalgar, GabeTrafalgar]
 website: www.teamfekker.net
 depend: [Vault]
 
