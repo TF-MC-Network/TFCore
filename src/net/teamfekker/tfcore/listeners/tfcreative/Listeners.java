@@ -9,8 +9,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
-
-import net.minecraft.server.v1_16_R3.Block;
 import net.teamfekker.tfcore.Main;
 
 
