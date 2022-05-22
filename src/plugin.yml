@@ -1,6 +1,7 @@
 main: net.teamfekker.tfcore.Main
 name: TFCore
 version: 1.0.0
+api-version: 1.16
 description: TFCore combining core functions of various TF plugins into one.
 author: _MrUniverse
 website: www.teamfekker.net

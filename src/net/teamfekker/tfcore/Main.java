@@ -7,7 +7,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 	
-	@SuppressWarnings("unused")
 	public static Main plugin;
     FileConfiguration config = this.getConfig();
 	
@@ -16,6 +15,7 @@ public class Main extends JavaPlugin {
 		plugin = this;
 		//config things
     	config.addDefault("Enable automatic creative mode?", false);
+    	config.addDefault("Enable block banning?", true);
 		config.options().copyDefaults(true);
 		saveConfig();
 

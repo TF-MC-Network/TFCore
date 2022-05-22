@@ -24,7 +24,7 @@ public class PurgeCommand implements CommandExecutor {
 				
 				Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin) this, new Runnable() {
 					public void run() {
-						p.sendTitle(null,"Disconnecting in 20s");
+						p.sendTitle("","Disconnecting in 20s");
 						p.sendMessage("Disconnecting in 20s");
 					}
 
@@ -32,7 +32,7 @@ public class PurgeCommand implements CommandExecutor {
 				
 				Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin) this, new Runnable() {
 					public void run() {
-						p.sendTitle(null," Disconnecting in 10s");
+						p.sendTitle(""," Disconnecting in 10s");
 						p.sendMessage("Disconnecting in 10s");
 					}
 
